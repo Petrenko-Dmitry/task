@@ -1,0 +1,11 @@
+POST http://localhost:8080/addRule?rule=dc#m#10
+Content-Type: application/json
+
+
+###
+POST http://localhost:8080/getDistance
+Content-Type: application/json
+
+{"distance": {"unit": "md", "value": 0.5}, "convert_to": "sm"}
+
+###
